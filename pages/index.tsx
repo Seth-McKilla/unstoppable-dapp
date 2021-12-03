@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Text, Center } from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 import { Layout } from "../components";
 
 const Home: NextPage = () => {
