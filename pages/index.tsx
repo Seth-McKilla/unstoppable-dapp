@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Container } from "@chakra-ui/react";
+import { Text, Center } from "@chakra-ui/react";
+import { Layout } from "../components";
 
 const Home: NextPage = () => {
   return (
@@ -14,9 +15,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Container>
-        <h1>Welcome to the Unstoppable dApp</h1>
-      </Container>
+      <Layout>
+        <Text fontSize="3xl">Welcome to the Unstoppable dApp</Text>
+        <Text fontSize="lg">
+          Login with the Unstoppable Login button in the top right to continue
+        </Text>
+      </Layout>
     </div>
   );
 };
