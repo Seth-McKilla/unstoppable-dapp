@@ -9,7 +9,6 @@ const Home: NextPage = () => {
   const uid = "placeholder_uid";
 
   const { data, error } = useSWR(`/api/test?uid=${uid}`, fetcher);
-  console.log(data);
 
   return (
     <div>
